@@ -7,6 +7,11 @@ import img3 from "../img/slider3.png";
 
 
 const home = () => {
+    /**
+   * Datos iniciales hasta realizar el backend.
+   * @author Victor Muñoz
+   */
+
   const dummyData = [
     {
       imagen:
@@ -73,6 +78,11 @@ const home = () => {
       precio: "90.000 Unidad",
     },
   ];
+
+    /**
+   * devuelve el renderizado de slider y mapeo de lista dummy de productos..
+   * @author Victor Muñoz
+   */
 
   return (
     <div

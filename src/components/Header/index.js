@@ -1,6 +1,10 @@
 import React from 'react'
 import Styles from "./header.module.css"
 
+    /**
+   * devuelve el renderizado del header
+   * @author Joinner Moreno
+   */
 const index = () => {
     return (
             <nav className="color_green navbar navbar-expand-md navbar-light align-items-center ">

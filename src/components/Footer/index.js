@@ -1,5 +1,9 @@
 import React from 'react'
 
+    /**
+   * devuelve el renderizado del footer
+   * @author Maicol Mendietta
+   */
 const index = () => {
   return (
     <div>
