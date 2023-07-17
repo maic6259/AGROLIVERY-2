@@ -1,0 +1,47 @@
+.section_padding {
+    padding-bottom: 140px;
+  }
+
+/* IMAGE ZOOM */
+.image_zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image_zoom_wrapper {
+    overflow: hidden;
+    position: cover;
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .image_zoom_wrapper img{
+     transition: var(--transition);
+      border-radius: 8px 8px 0 0;
+  }
+  
+  .image_zoom:hover .image_zoom_wrapper img {
+    transform: scale(1.1);
+  }
+
+  /* BOTON CARD */
+  
+.card_button {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #1F487E;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+    text-decoration: none;
+  }
+  
+  .card_button:hover {
+    text-decoration: none;
+    background-color: #1D3461;
+    color: #fff;
+  
+  }
+  
